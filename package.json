@@ -1,0 +1,23 @@
+{
+  "name": "trusk-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "ioredis": "^4.17.3",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4"
+  }
+}
